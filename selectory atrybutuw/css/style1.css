@@ -1,0 +1,27 @@
+a {
+	font-size: 3em;
+}
+
+a[title] {
+	color: red;
+}
+
+a[title="link 5"] {
+	color: green;
+}
+
+a[title~="link"] {
+	color: yellow;
+}
+
+a[href*=".pl"] {
+	color: orange;
+}
+
+a[title^='t'] {
+	color: blueviolet;
+}
+
+a[href$=".com"] {
+	color: palegreen;
+}

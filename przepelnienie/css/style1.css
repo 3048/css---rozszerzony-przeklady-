@@ -1,0 +1,27 @@
+body {
+	height: 600px;
+	width: 600px;
+}
+
+p {
+	width: 50%;
+	float: left;
+	height: 300px;
+	overflow: hidden;
+}
+
+p:nth-child(3) {
+	overflow: scroll;
+}
+
+p:nth-child(4) {
+	overflow: auto;
+}
+
+p:nth-child(4) {
+	overflow: auto;
+}
+
+p:nth-child(5) {
+	overflow: visible;
+}
